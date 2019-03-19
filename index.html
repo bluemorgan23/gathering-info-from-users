@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,36 @@
     <title>Gathering Information from Users</title>
     <link rel="stylesheet" href="./src/styles/styles.css">
 </head>
+<fieldset>
+    <label for="lego__creator">Creator:</label>
+    <input id="lego__creator" name="lego__creator" type="text" autofocus />
+</fieldset>
+<!-- <fieldset>
+    <label for="lego__color">Color:</label>
+    <input id="lego__color" name="lego__color" type="text"/>
+</fieldset> -->
+<fieldset>
+    <label for="lego__shape">Shape:</label>
+    <input id="lego__shape" name="lego__shape" type="text"/>
+</fieldset>
+<fieldset>
+    <label for="lego__creation">Creation:</label>
+    <input id="lego__creation" name="lego__creation" type="text"/>
+</fieldset>
+<button class="btn lego__save">Save Lego Creation</button>
+
 <body>
+    <select id="lego__color">
+        <option value="1">Red</option>
+        <option value="2">Green</option>
+        <option value="3">Yellow</option>
+        <option value="4">Blue</option>
+        <option value="5">Orange</option>
+        <option value="6">Black</option>
+    </select>
+    <section id="lego__container"></section>
+    <script src="./src/scripts/apiManager.js"></script>
     <script src="./src/scripts/main.js"></script>
 </body>
+
 </html>

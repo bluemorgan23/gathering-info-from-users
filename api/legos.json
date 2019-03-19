@@ -1,0 +1,32 @@
+{
+  "legoCreation": [
+    {
+      "creator": "Chris",
+      "color": "Red",
+      "shape": "Circle",
+      "creation": "Millenium Falcon",
+      "id": 1
+    },
+    {
+      "creator": "test",
+      "color": "",
+      "shape": "test",
+      "creation": "test",
+      "id": 2
+    },
+    {
+      "creator": "Chris",
+      "color": "Black",
+      "shape": "Testing",
+      "creation": "This is A test",
+      "id": 3
+    },
+    {
+      "creator": "Chris",
+      "color": "Yellow",
+      "shape": "Rectangle",
+      "creation": "Table",
+      "id": 4
+    }
+  ]
+}
